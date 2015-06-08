@@ -1,0 +1,2 @@
+http://www.codeproject.com/Articles/660478/Csharp-Create-and-Manipulate-Word-Documents-Progra
+http://www.typecastexception.com/post/2013/09/28/C-Create-and-Manipulate-Word-Documents-Programmatically-Using-DocX.aspx#Find-and-Replace-Text-Using-DocX---Merge-Templating--Anyone-

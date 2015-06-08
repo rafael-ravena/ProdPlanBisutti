@@ -1,0 +1,69 @@
+O sistema deverá possibilitar o cadastramento dos usuários, respeitando suas áreas, que serão restritivas em relação às atividades disponíveis no sistema.
+O acesso ao sistema deverá ser protegido, utilizando como meio de acesso o endereço de email e senha.
+A senha poderá ser modificada pelo próprio usuário ou recuperada em precesso automatizado (clique em um link e a senha é enviada para o email cadastrado).
+
+Uma assistente fará o cadastro dos contratos de eventos, informando os dados de contratante (nome do contratante, nome do(s) homenageado(s), e-mail, telefone, cpf, etc.), dados do evento (data, hora, local, possui ou não cerimonial, número de convidados) e observações a respeito.
+Para cada contrato, é necessário anexar o arquivo digitalizado do contrato físico para conferência. Ao anexar, deverão ser informados quantos itens correspondentes a cada área de preenchimento da OS existem no arquivo anexo. (Ex. Decoração: 13 itens, Gastronomia: 17 Itens...)
+Para cada contrato, deverão ser selecionados os produtos inclusos em contrato, fazendo referência ao arquivo onde está descrito o item contratual.
+O sistema deverá contabilizar quantos itens de cada área existem no contrato mas ainda não foram preenchidos na OS.
+
+O sistema deverá enviar um e-mail configurável contendo o material de boas vindas e manual de eventos aos contratantes.
+O sistema deverá sugerir à assistente a agenda de reuniões para definição dos eventos, que poderá ser alterada em qualquer ocasião, mas que deverá ser confirmada no próprio sistema.
+O número de reuniões e o período para sugestão de reuniões deverá ser configurável de acordo com cada reunião (reunião X deverá acontecer Y dias antes do evento), e deverá respeitar fins de semana e feriados para a sugestão do agendamento.
+
+O sistema deverá notificar os usuários de pós venda quanto a necessidade de iniciar os contatos com os clientes.
+O sistema deverá notificar os contratantes, por e-mail, quanto à agenda de eventos da semana, explicando qual é a casa, qual é o tipo de evento, qual é a decoração escolhida e o horário disponível para as visitas.
+O horário disponível para as visitas deverá ser configurável, definindo um intervalo em relação ao horário de início do evento.
+O sistema deverá possibilitar o acompanhamento dos atendimentos em pós venda, possibilitando a inclusão de registros de data de reunião, assunto abordado, e observações para incluir preços praticados e em negociação.
+
+O sistema deverá possibilitar a inclusão, exclusão e alteração dos serviços definidos em contrato, sempre anexando e referenciando os respectivos aditivos contratuais.
+No cadastramento destes, o(a) assistente deverá informár quantos itens referentes a cada área estão inclusos neste aditivo contratual.
+
+O sistema deverá notificar os usuários de produção quanto à necessidade de iniciar o processo de produção do evento, avisando com um período configurável de antecedência as datas de reunião com os clientes.
+
+Os usuários de produção deverão selecionar todos os detalhes do evento conforme suas áreas.
+Cada informação poderá ser exibida em uma ou mais áreas do documento "OS" a ser impresso ao final do processo.
+
+Cada área de preenchimento deverá ser disposta para preenchimento separadamente da outra.
+Todas as áreas deverão dispor de marcadores informando que ainda há (ou não) itens existentes em contrato ou aditivos contratuais não referenciados (Ex. Decoração: 5 itens faltantes em relação à contagem em contrato e aditivos).
+A área de decoração deverá apresentar a sub área "cerimônia" somente se o contrato apontar que o evento possui cerimonial.
+
+Todos os itens devem apontar se o responsável pela "contratação / agendamento / disponibilização", é a Villa Bisutti ou outra pessoa. 
+No caso da responsabilidade ser da Villa Bisutti, o sistema deverá possibilitar a marcação do item como "Definido" ou não (na ocasião da escolha do cliente), e também poderá ser marcado como "Resolvido" ou não (na ocasião da "contratação / reserva / bloqueio para outros eventos no mesmo horário" propriamente dita do item em questão).
+Deverão ser informados os dados de contato do fornecedor e horário de disponibilização no dia do evento.
+
+Todos os dias, os usuários da área de planejamento deverão ser notificados pelo sistema quanto à necessidade de contratação, agendamento ou bloqueio dos itens "Definidos" que ainda não foram "Resolvidos".
+Ainda que já tenham sido notificados, os itens pendentes deverão continuar sendo notificados até que sua situação se encontre como "Resolvido".
+
+Dependendo da área de preenchimento, os itens deverão se comportar de maneiras diferentes.
+Na área de decoração, todos os itens previamente configurados deverão ser exibidos para preenchimento, com a possibilidade de serem marcados como "nao disponíveis" no evento em questão.
+Em todas as outras áreas os itens serão disponibilizados para seleção dos itens inclusos no evento, exibindo apenas os itens selecionados.
+Todos os itens devem apresentar a possibilidade de incluir uma observação e quantas fotos necessarias.
+Na sub área de doces, dentro da área de Bolo, doces e bem-casado, os doces podem possuir diferentes fornecedores. Ao selecionar os fornecedores da Villa Bisutti, somente os doces fornecidos por estes deverão ser apresentados. Caso o fornecedor não seja o da Villa Bisutti, as informações de tipo de doce, forma, etc. deverão ser preenchidas manualmente.
+
+O sistema deverá possibilitar a criação de um roteiro padrão para cada tipo de evento.
+O usuário da área de produção deverá configurar o roteiro daquele evento, informando cada acontecimento, o tempo de diferença em relação ao início do evento e possíveis observações a respeito do acontecimento. O acontecimento, caso marcado como "importante", deverá ser exibido de forma diferenciada (com destaque), inclusive na OS final para impressão.
+Na OS final para impressão, deverão ser inclusos todos os dados de horário de disponibilização de itens e os dados de contato apresentados de forma cronológica.
+
+O sistema deverá notificar os usuários da área de produção responsáveis pelo evento e os clientes quanto aos prazos para fechamento da OS, em quantas ocasiões se fizerem necessárias, com um período de antecipação ao evento configurável.
+Após o período de fechamento da OS (configurável em sistema), alterações no cadastro e preenchimento da OS do evento só poderão ser feitas pelos usuários da área de planejamento.
+O sistema deverá disponibilizar um endereço para confirmação e aprovação da OS a ser acessado pelos contratantes, onde estes deverão informar os dados do contratante para aprovar a OS.
+
+O sistema deverá possibilitar a geração do documento OS final, em MS Word, que deverá ficar disponível para download.
+Este documento apresentará de forma compartimentada todas as informações preenchidas na OS, apresentando as informações nas áreas em que estas foram configuradas, repetindo-as sempre que necessário.
+
+O sistema deverá notificar as diversas (e configuráveis) áreas sobre a disponibilidade da OS final para download.
+
+Após certo período (configurável) após a execução do evento, o sistema deverá compactar todos os arquivos referentes ao evento (imagens, arquivos digitais de contratos, OS final gerada) em uma pasta compacta e disponibilizá-la para download, e em seguida excluir todos estes arquivos contidos na pasta compacta do sistema de arquivos, liberando espaço para os eventos ainda não executados.
+O sistema deverá excluir todos os dados de preenchimento da OS daquele evento para liberar espaço, deixando disponível apenas os dados contratuais (contratante, dados do evento e observações)
+
+Todas os emails de notificações a serem enviados aos clientes deverão ter seu layout configurável via sistema.
+Todas as configurações de itens disponíveis para preenchimento da OS deverão ser editáveis a qualquer momento via sistema.
+Todos os tipos de itens disponíveis para preenchimento da OS deverão poder ser atribuídos em qualquer momento a várias áreas para apresentação na OS final para exibição. (Ex. um item que será preenchido na área de decoração poderá ser escolhido a qualquer momento para ser exibido (também ou somente) em qualquer outra área na geração da OS final para impressão).
+
+Requisitos não funcionais:
+O sistema deverá ser confeccionado já prevendo a necessidade de interação com qualquer outro sistema que venha a ser cadastrado, por meio de Web Services que possibilitem a inclusão de dados ou a consulta a contratos, usando como parâmetro o número de contrato.
+O sistema deverá ser acessível via Web, sem que haja a necessidade dos usuários estarem físicamente conectados na rede da Villa Bisutti.
+O sistema deverá poder ser acessado por computadores convencionais, tablets e smartphones.
+O sistema deverá apresentar conceitos de usabilidade e heurística (proximidade com o universo dos eventos tanto nos termos e rótulos quanto no preenchimento dos campos), para aumentar a aderência dos usuários com a aplicação.
+O sistema deve estar preparado para futuros incrementos (inclusão de novos módulos), tais como "lista de convidados"
